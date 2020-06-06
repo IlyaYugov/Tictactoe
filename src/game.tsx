@@ -1,9 +1,22 @@
-import React from "react";
+import React, {Props} from "react";
 import {calculateWinner} from "./calculateWinner";
 import {Board} from "./board";
 
-export class Game extends React.Component {
-    constructor(props) {
+interface GameProps {
+}
+
+interface GameState {
+    history: Array<History>,
+    stepNumber: number,
+    xIsNext: boolean
+}
+interface History{
+    squares: Array<string>
+    squareNumber: number | null
+}
+
+export class Game extends React.Component<GameProps, GameState> {
+    constructor(props: GameProps) {
         super(props);
         this.state = {
             history: [{
@@ -15,10 +28,10 @@ export class Game extends React.Component {
         }
     }
 
-    renderButtons(history) {
+    renderButtons(history: Array<History> ) {
         const moves = history.map((step, move) => {
             const desc = move
-                ? `Перейти к ходу (${step.squareNumber % 3 + 1} ${Math.trunc(step.squareNumber / 3) + 1})`
+                ? step.squareNumber && `Перейти к ходу (${step.squareNumber % 3 + 1} ${Math.trunc(step.squareNumber / 3) + 1})`
                 : 'К началу игры';
             return (
                 <li key={move}>
@@ -29,7 +42,7 @@ export class Game extends React.Component {
         return (moves)
     }
 
-    getStatus(currentHistory, winner){
+    getStatus(currentHistory: History, winner: Array<number> | null){
         let status = winner
             ? `Выиграл ${currentHistory.squares[winner[0]]}`
             : (!winner && this.state.stepNumber === 9)
@@ -38,7 +51,7 @@ export class Game extends React.Component {
         return status
     }
 
-    render() {
+    render(): JSX.Element {
         const history = this.state.history;
         const currentHistory = history[this.state.stepNumber];
         const winner = calculateWinner(currentHistory.squares);
@@ -63,7 +76,7 @@ export class Game extends React.Component {
         );
     }
 
-    handleClick(i) {
+    handleClick(i: number) {
         const history = this.state.history.slice(0, this.state.stepNumber + 1);
         const current = history[history.length - 1];
         const squares = current.squares.slice();
@@ -82,7 +95,7 @@ export class Game extends React.Component {
         });
     }
 
-    jumpTo(step) {
+    jumpTo(step: number) {
         this.setState({
             stepNumber: step,
             xIsNext: (step % 2) === 0

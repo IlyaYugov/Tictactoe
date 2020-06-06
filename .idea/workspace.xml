@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f61837e-083f-44c3-8684-6cae5bd988a0" name="Default Changelist" comment="" />
+    <list default="true" id="1f61837e-083f-44c3-8684-6cae5bd988a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/board.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/calculateWinner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/square.js" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,41 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/game.js">
+        <entry file="file://$PROJECT_DIR$/tsconfig.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/board.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/square.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -62,18 +41,33 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>squares</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\ilyaugov\WebstormProjects\tictactoe\src</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Tictactoe" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/index.css" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/square.js" />
         <option value="$PROJECT_DIR$/src/calculateWinner.js" />
         <option value="$PROJECT_DIR$/src/game.js" />
         <option value="$PROJECT_DIR$/src/board.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/index.ts" />
+        <option value="$PROJECT_DIR$/src/game.ts" />
+        <option value="$PROJECT_DIR$/src/calculateWinner.ts" />
+        <option value="$PROJECT_DIR$/src/square.tsx" />
+        <option value="$PROJECT_DIR$/src/board.tsx" />
+        <option value="$PROJECT_DIR$/src/game.tsx" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
       </list>
     </option>
   </component>
@@ -120,8 +114,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend" />
+    <property name="last_opened_file_path" value="C:/Projects/cement/kopf/Forms/RSV2020/Frontend" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.jscs" value="true" />
@@ -139,7 +134,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="liveEdit" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
     <property name="ts.external.directory.path" value="C:\Users\ilyaugov\WebstormProjects\tictactoe\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
@@ -163,7 +158,10 @@
     </option>
   </component>
   <component name="RunManager" selected="npm.npm start">
-    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:63342" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" uri="http://localhost:63342" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -176,6 +174,10 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="npm.npm start" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -191,31 +193,41 @@
       <workItem from="1590519517368" duration="1419000" />
       <workItem from="1590520954987" duration="501000" />
       <workItem from="1590521486059" duration="29293000" />
+      <workItem from="1591216849763" duration="6090000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34451000" />
+    <option name="totallyTimeSpent" value="40541000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.15015806" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" sideWeight="0.50080776" side_tool="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6180556" visible="true" weight="0.15015806" />
+      <window_info id="Structure" order="1" sideWeight="0.38194445" side_tool="true" weight="0.15015806" />
+      <window_info id="npm" order="2" sideWeight="0.38194445" side_tool="true" weight="0.15015806" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49947312" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49789253" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49683878" weight="0.219935" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49736565" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4947313" weight="0.219935" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49894625" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="TypeScript" order="9" sideWeight="0.49841937" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50316125" side_tool="true" visible="true" weight="0.219935" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49789253" weight="0.32936078" />
+      <window_info anchor="bottom" id="TypeScript" order="9" sideWeight="0.49736565" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5052687" side_tool="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4947313" visible="true" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -235,30 +247,292 @@
         <option value="C:/Projects/cement/kopf/Forms/RSV2020/Frontend/app/components/common/ZeroReporting/RSV2020PrepareZeroReportingDraftActions.js.map" />
         <option value="C:/Projects/cement/kopf/Forms/RSV2020/Frontend/app/components/common/ZeroReporting/RSV2020PrepareZeroReportingDraftLightbox.js" />
         <option value="C:/Projects/cement/kopf/Forms/RSV2020/Frontend/app/components/common/ZeroReporting/RSV2020PrepareZeroReportingDraftLightbox.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section21/KfhMembersInfos.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section21/KfhMembersInfos.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section21/Section21.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section21/Section21.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/FormProperties/FormPropertiesHelper.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/FormProperties/FormProperties.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/FormProperties/SignerComponent.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/FormProperties/FormProperties.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/FormProperties/FormPropertiesHelper.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/FormProperties/SignerComponent.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Navigation/Menu.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Navigation/Menu.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3Person/Helpers.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3Person/Helpers.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3Person/SumsTable1.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3Person/SumsTable2.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3Person/Section3Person.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3Person/Section3Person.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3Person/SumsTable1.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3Person/SumsTable2.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section12/Section12.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section12/Section12.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section13/Section13.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section13/Section13.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section110/AssociationComponent.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section110/StudentComponent.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section110/Section110.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section110/StudentComponent.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section110/AssociationComponent.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section110/Section110.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section11/Section114.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section11/Section111.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section11/Section1132.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section11/Section114.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section11/Section1131.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section11/Section11.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section11/Section111.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section11/Section11.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section11/Section112.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section11/Section1131.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section11/Section1132.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section11/Section112.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section2/Section2.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section2/Section2.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section16/Section16Body.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section16/Section16Body.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section16/Section16.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section16/Section16.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/ElbaSection3/ElbaSection3.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/ElbaSection3/ElbaSection3.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section17/Section17.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section17/Section17.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section1/Section1_060_080_Helpers.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section1/Section1.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section1/Section1.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section1/Section1InsuranceBlock2.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section1/Section1InsuranceBlock.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section1/Section1InsuranceBlock2.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section1/Section1_060_080_Helpers.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section1/Section1InsuranceBlock.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section14/Section14.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section14/Section14.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Section3.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Section3Contracts.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/QSection3.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Section3.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/CategoryCodes.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Section3TotalCalculator.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Section3TotalCalculator.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/CategoryCodes.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Section3FilterConfiguration.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Section3FilterConfiguration.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Section3Contracts.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/QSection3.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section15/Section15.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section15/Section15.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section18/PatentComponent.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section18/Section18.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section18/Section18.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section18/Section18Body.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section18/Section18Body.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section18/PatentComponent.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section19/Section19.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section19/Section19.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section19/ForeignerComponent.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section19/ForeignerComponent.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/__tests__/Helpers.test.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/__tests__/KbkHelper.test.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/__tests__/KbkHelper.test.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/__tests__/Helpers.test.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/ElbaSection18/ElbaPatentComponent.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/ElbaSection18/ElbaSection18.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/ElbaSection18/ElbaSection18.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/ElbaSection18/ElbaPatentComponent.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/ElbaSection16/ElbaValidationConfiguration.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/ElbaSection16/ElbaValidationConfiguration.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/ElbaSection16/ElbaUSN.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/ElbaSection16/ElbaUSN.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/ElbaSection15/ElbaSection15.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/ElbaSection15/ElbaSection15.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/ZeroReporting/PrepareZeroReportLightbox.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/ZeroReporting/PrepareZeroReportLightbox.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/PrintSections/PrintParametersAndSectionsLightbox.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/PrintSections/PrintParametersAndSectionsLightbox.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/PrintSections/RSVPrintSectionsHelper.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/PrintSections/PrintRangeSelectionLightbox.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/PrintSections/PrintRangeSelectionLightbox.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/PrintSections/RSVPrintSectionsControl.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/PrintSections/RSVPrintSectionsHelper.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/PrintSections/RSVPrintSectionsConstants.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/PrintSections/RSVPrintSectionsControl.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/PrintSections/RSVPrintSectionsConstants.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/lightboxes/RSV2017ImportFileComponent.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/lightboxes/RSV2017ImportFileComponent.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/SectionHeader/HelpLinksHeader.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/SectionHeader/PageActionsDropdown.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/SectionHeader/SectionHeader.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/SectionHeader/PageActionsDropdown.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/SectionHeader/DeleteSectionLink.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/SectionHeader/DeleteSectionLink.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/SectionHeader/SectionHeader.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/SectionHeader/HelpLinksHeader.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/ForbiddenSection/ForbiddenSectionBody.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/ForbiddenSection/ForbiddenSectionBody.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/ForbiddenSection/ForbiddenSectionHeader.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/ForbiddenSection/ForbiddenSectionHeader.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/CalculationByAllPersonsHint.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/listTypes.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/listTypes.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/KbkHelper.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/CalculationByAllPersonsHint.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/KbkHelper.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Helpers.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Helpers.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/store/RSVPrintSectionsStore.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/store/RSVStore.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/store/RSVSectionsStore.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/store/RSVStore.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/store/RSVPrintSectionsStore.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/store/RSVSectionsStore.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/RSV2017DataMover/RSV2017DataMoverHelper.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/RSV2017DataMover/RSV2017DataMover.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/RSV2017DataMover/RSV2017DataMoverHelper.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/RSV2017DataMover/RSV2017DataMover.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/helpers/RSVPortalChatInitializer.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/helpers/RSVSectionsClearManager.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/helpers/RSVSectionsClearManager.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/helpers/RSVPortalChatInitializer.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/helpers/RSVFioHelpers.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/helpers/RSVFioHelpers.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/__tests__/currencies.test.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/__tests__/currencies.test.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/react-selenium-testing.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/RSV2017ValidationResultCustomProperties.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/RSV2017ImportStoreLogicConfiguration.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/RSV2017Filters.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/App.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/RSV2017ValidationResultCustomProperties.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/RSV2017FnsRejectionValidationHelpers.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/Main.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/RSV2017ServiceSpecificViewOptions.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/ListRange.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/RSV2017ApplicationCustomPropsProvider.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/RSV2017CompositionRoot.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/RSV2017FnsRejectionValidationHelpers.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/ListRange.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/RSV2017ImportStoreLogicConfiguration.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/RSV2017Filters.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/Main.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/RSV2017ServiceSpecificViewOptions.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/RSV2017ApplicationCustomPropsProvider.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/react-selenium-testing.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/App.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/RSV2017CompositionRoot.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/config/jest/FileStub.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/config/jest/CSSStub.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/config/jest/CSSStub.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/config/jest/FileStub.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/config/enzyme/setup.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/config/enzyme/setup.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/PrintSections/__tests__/RSVPrintSectionsHelper.test.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/PrintSections/__tests__/RSVPrintSectionsHelper.test.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/FormProperties/__tests__/SignerComponent.test.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/FormProperties/__tests__/SignerComponent.test.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/FormProperties/__tests__/FormProperties.test.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/FormProperties/__tests__/FormProperties.test.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section110/Contracts/RSV2017StudentsListTotalRow.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section110/Contracts/RSV2017StudentsListRow.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section110/Contracts/RSV2017StudentsListPage.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section110/Contracts/RSV2017StudentsListRow.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section110/Contracts/RSV2017StudentsListPage.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section110/Contracts/RSV2017StudentsListTotalRow.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section110/Lightboxes/EditStudentLightbox.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section110/Lightboxes/EditStudentLightbox.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section19/Contracts/RSV2017ForeignersListRow.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section19/Contracts/RSV2017ForeignersListPage.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section19/Contracts/RSV2017ForeignersListRow.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section19/Contracts/RSV2017ForeignersListPage.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section19/Contracts/RSV2017ForeignersListTotalRow.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section19/Contracts/RSV2017ForeignersListTotalRow.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section19/Lightboxes/EditForeignerLightbox.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section19/Lightboxes/Section3ImportLightbox.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section19/Lightboxes/EditForeignerLightbox.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section19/Lightboxes/Section3ImportLightbox.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Contracts/ImportPersonsResult.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Contracts/UploadPersonsFileResultStatus.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Contracts/UploadPersonsFileResult.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Contracts/ImportPersonsResultCount.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Contracts/ImportPersonsFileType.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Contracts/ImportPersonsResultStatus.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Contracts/ImportPersonsResultStatus.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Contracts/ImportPersonsResult.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Contracts/UploadPersonsFileResultStatus.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Contracts/UploadPersonsFileResult.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Contracts/ImportPersonsResultCount.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Contracts/ImportPersonsFileType.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Lightboxes/UploadPersonsFileErrorLightbox.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Lightboxes/ImportPersonsFileManager.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Lightboxes/ImportPersonsLightbox.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Lightboxes/ImportPersonsFileSelector.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Lightboxes/ImportFailLightbox.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Lightboxes/ImportPersonsFileManager.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Lightboxes/ImportPersonsFileLink.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Lightboxes/UploadPersonsFileErrorLightbox.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Lightboxes/ImportFailLightbox.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Lightboxes/ImportSuccessLightbox.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Lightboxes/UploadPersonsFileSuccessLightbox.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Lightboxes/RsvPersonsMergeLightbox.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Lightboxes/ImportPersonsLightbox.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Lightboxes/ImportPersonsFileLink.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Lightboxes/ImportSuccessLightbox.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Lightboxes/UploadPersonsFileSuccessLightbox.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Lightboxes/RsvPersonsMergeLightbox.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/Lightboxes/ImportPersonsFileSelector.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/PersonPrint/RangeLink.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/PersonPrint/RangeLink.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/PersonPrint/PersonRangeSelectionLightbox.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/PersonPrint/PersonCardParametersSelectionLightbox.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/PersonPrint/PersonCardParametersSelectionLightbox.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/PersonPrint/PersonsPrintLightboxControl.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/PersonPrint/PersonRangeSelectionLightbox.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/PersonPrint/PersonsPrintLightboxControl.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/PersonPrint/PersonPrintModeAndTypeSelectionLightbox.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/PersonPrint/PersonPrintLightbox.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/PersonPrint/PersonPrintLightbox.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/PersonPrint/PersonPrintModeAndTypeSelectionLightbox.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/ImportPersonsComponent.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/ImportPersonsComponent.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/ImportSumsFromPreviousPeriodControl.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ImportPersons/ImportSumsFromPreviousPeriodControl.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/PersonsDeleteSumsLightbox.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/PersonsCorrectionNumberLightbox.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/PersonsChangeCodeLightbox.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/AutoSumsLightbox.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/AutoSumsLightbox.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/RenumberPersonsLightbox.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/PersonsAddCategoryLightbox.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/PersonsAddCategoryLightbox.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/SwitchPersonsToAutoSum.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/Helpers.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/PersonsDeleteSumsLightbox.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/SwitchPersonsToAutoSum.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/PersonPrintLightbox.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/RenumberPersonsLightbox.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/PersonPrintLightbox.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/PersonsChangeCodeLightbox.js.map" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/Helpers.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/Lightboxes/PersonsCorrectionNumberLightbox.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ActionDropdown/ActionDropdown.js" />
+        <option value="C:/Projects/cement/kopf/Forms/RSV2017/Frontend/app/sections/Section3/ActionDropdown/ActionDropdown.js.map" />
       </list>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/game.tsx</url>
+          <line>32</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -273,16 +547,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/square.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/board.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="306">
           <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -290,10 +557,115 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/square.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="-586">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/calculateWinner.tsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/calculateWinner.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/square.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/board.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="66" lean-forward="true" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-app-env.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>

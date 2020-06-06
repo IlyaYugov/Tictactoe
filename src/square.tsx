@@ -1,6 +1,12 @@
 import React from "react";
 
-export function Square(props) {
+export interface SquareProps {
+    selected: boolean | null,
+    value: string,
+    onClick: () => void;
+}
+
+export function Square(props: SquareProps) {
     return (
         <button className="square"
                 onClick={props.onClick}
